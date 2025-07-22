@@ -34,7 +34,7 @@ jobs:
           buildozer android debug
 
       - name: APK'yi yükle (indirilebilir hale getir)
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: AI-Root-Assistant-APK
           path: bin/*.apk
